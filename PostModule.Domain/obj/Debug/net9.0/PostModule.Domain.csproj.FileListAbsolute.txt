@@ -1,0 +1,11 @@
+D:\PostModule\PostModule\PostModule.Domain\bin\Debug\net9.0\PostModule.Domain.deps.json
+D:\PostModule\PostModule\PostModule.Domain\bin\Debug\net9.0\PostModule.Domain.dll
+D:\PostModule\PostModule\PostModule.Domain\bin\Debug\net9.0\PostModule.Domain.pdb
+D:\PostModule\PostModule\PostModule.Domain\obj\Debug\net9.0\PostModule.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\PostModule\PostModule\PostModule.Domain\obj\Debug\net9.0\PostModule.Domain.AssemblyInfoInputs.cache
+D:\PostModule\PostModule\PostModule.Domain\obj\Debug\net9.0\PostModule.Domain.AssemblyInfo.cs
+D:\PostModule\PostModule\PostModule.Domain\obj\Debug\net9.0\PostModule.Domain.csproj.CoreCompileInputs.cache
+D:\PostModule\PostModule\PostModule.Domain\obj\Debug\net9.0\PostModule.Domain.dll
+D:\PostModule\PostModule\PostModule.Domain\obj\Debug\net9.0\refint\PostModule.Domain.dll
+D:\PostModule\PostModule\PostModule.Domain\obj\Debug\net9.0\PostModule.Domain.pdb
+D:\PostModule\PostModule\PostModule.Domain\obj\Debug\net9.0\ref\PostModule.Domain.dll

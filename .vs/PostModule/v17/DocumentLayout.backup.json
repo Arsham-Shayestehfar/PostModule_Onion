@@ -1,0 +1,79 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\PostModule\\PostModule\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{06491E1F-21EA-4253-84FE-688979485AA6}|PostModule.Domain\\PostModule.Domain.csproj|d:\\postmodule\\postmodule\\postmodule.domain\\cityentity\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06491E1F-21EA-4253-84FE-688979485AA6}|PostModule.Domain\\PostModule.Domain.csproj|solutionrelative:postmodule.domain\\cityentity\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06491E1F-21EA-4253-84FE-688979485AA6}|PostModule.Domain\\PostModule.Domain.csproj|d:\\postmodule\\postmodule\\postmodule.domain\\stateentity\\state.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06491E1F-21EA-4253-84FE-688979485AA6}|PostModule.Domain\\PostModule.Domain.csproj|solutionrelative:postmodule.domain\\stateentity\\state.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06491E1F-21EA-4253-84FE-688979485AA6}|PostModule.Domain\\PostModule.Domain.csproj|d:\\postmodule\\postmodule\\postmodule.domain\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06491E1F-21EA-4253-84FE-688979485AA6}|PostModule.Domain\\PostModule.Domain.csproj|solutionrelative:postmodule.domain\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "City.cs",
+              "DocumentMoniker": "D:\\PostModule\\PostModule\\PostModule.Domain\\CityEntity\\City.cs",
+              "RelativeDocumentMoniker": "PostModule.Domain\\CityEntity\\City.cs",
+              "ToolTip": "D:\\PostModule\\PostModule\\PostModule.Domain\\CityEntity\\City.cs",
+              "RelativeToolTip": "PostModule.Domain\\CityEntity\\City.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwCsAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T22:51:21.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "D:\\PostModule\\PostModule\\PostModule.Domain\\Common\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "PostModule.Domain\\Common\\BaseEntity.cs",
+              "ToolTip": "D:\\PostModule\\PostModule\\PostModule.Domain\\Common\\BaseEntity.cs",
+              "RelativeToolTip": "PostModule.Domain\\Common\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T22:48:10.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "State.cs",
+              "DocumentMoniker": "D:\\PostModule\\PostModule\\PostModule.Domain\\StateEntity\\State.cs",
+              "RelativeDocumentMoniker": "PostModule.Domain\\StateEntity\\State.cs",
+              "ToolTip": "D:\\PostModule\\PostModule\\PostModule.Domain\\StateEntity\\State.cs",
+              "RelativeToolTip": "PostModule.Domain\\StateEntity\\State.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T22:28:30.839Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
