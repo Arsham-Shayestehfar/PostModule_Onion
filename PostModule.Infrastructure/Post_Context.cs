@@ -2,6 +2,7 @@
 
 using PostModule.Domain.CityEntity;
 using PostModule.Domain.StateEntity;
+using PostModule.Infrastructure.Configurations;
 
 namespace PostModule.Infrastructure
 {
@@ -13,5 +14,12 @@ namespace PostModule.Infrastructure
         }
         public DbSet<State> States { get; set; }
         public DbSet<City> Cities { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.ApplyConfiguration(new StateConfiguration());
+            modelBuilder.ApplyConfiguration(new CityConfiguration());
+            base.OnModelCreating(modelBuilder);
+        }
     }
 }

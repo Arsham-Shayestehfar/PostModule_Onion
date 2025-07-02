@@ -1,4 +1,5 @@
-﻿using Microsoft.IdentityModel.Tokens;
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 using PostModule.Domain.Services;
 using System;
 using System.Collections.Generic;
@@ -11,39 +12,43 @@ namespace PostModule.Infrastructure.Repositories
 {
     public class Repository<Tkey, T> : IRepository<Tkey, T> where T : class
     {
-        public bool Create(T command)
+        readonly DbContext _context;
+        public Repository(DbContext post_Context)
         {
-            throw new NotImplementedException();
+            _context = post_Context;
+        }
+        public bool Create(T Entity)
+        {
+             _context.Add<T>(Entity);
+            return Save();
         }
 
-        public bool Delete(T command)
+        public bool Delete(T Entity)
         {
-            throw new NotImplementedException();
+            _context.Remove<T>(Entity);
+            return Save();
         }
 
-        public bool ExistBy(Expression<Func<T, bool>> expression)
-        {
-            throw new NotImplementedException();
-        }
+        public bool ExistBy(Expression<Func<T, bool>> expression) =>
+            _context.Set<T>().Any(expression);
 
-        public IEnumerable<T> GetAll()
-        {
-            throw new NotImplementedException();
-        }
 
-        public IEnumerable<T> GetAllBy(Expression<Func<T, bool>> expression)
-        {
-            throw new NotImplementedException();
-        }
 
-        public T GetById(Tkey id)
-        {
-            throw new NotImplementedException();
-        }
+        public IEnumerable<T> GetAll() =>
+            _context.Set<T>().ToList();
 
-        public bool Save()
-        {
-            throw new NotImplementedException();
-        }
+
+        public IEnumerable<T> GetAllBy(Expression<Func<T, bool>> expression) =>
+            _context.Set<T>().Where(expression).ToList();
+        
+
+        public T GetById(Tkey id) =>
+        
+            _context.Find<T>(id);
+        
+
+        public bool Save() =>
+            _context.SaveChanges() >= 0 ?true:false;
+       
     }
 }
