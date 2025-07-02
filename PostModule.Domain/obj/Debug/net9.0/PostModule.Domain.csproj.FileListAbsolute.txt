@@ -9,3 +9,4 @@ D:\PostModule\PostModule\PostModule.Domain\obj\Debug\net9.0\PostModule.Domain.dl
 D:\PostModule\PostModule\PostModule.Domain\obj\Debug\net9.0\refint\PostModule.Domain.dll
 D:\PostModule\PostModule\PostModule.Domain\obj\Debug\net9.0\PostModule.Domain.pdb
 D:\PostModule\PostModule\PostModule.Domain\obj\Debug\net9.0\ref\PostModule.Domain.dll
+D:\PostModule\PostModule\PostModule.Domain\obj\Debug\net9.0\PostModule.Domain.sourcelink.json

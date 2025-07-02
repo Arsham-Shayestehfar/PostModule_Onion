@@ -1,0 +1,12 @@
+D:\PostModule\PostModule\PostModule.Application.Contract\bin\Debug\net9.0\PostModule.Application.Contract.deps.json
+D:\PostModule\PostModule\PostModule.Application.Contract\bin\Debug\net9.0\PostModule.Application.Contract.dll
+D:\PostModule\PostModule\PostModule.Application.Contract\bin\Debug\net9.0\PostModule.Application.Contract.pdb
+D:\PostModule\PostModule\PostModule.Application.Contract\obj\Debug\net9.0\PostModule.Application.Contract.GeneratedMSBuildEditorConfig.editorconfig
+D:\PostModule\PostModule\PostModule.Application.Contract\obj\Debug\net9.0\PostModule.Application.Contract.AssemblyInfoInputs.cache
+D:\PostModule\PostModule\PostModule.Application.Contract\obj\Debug\net9.0\PostModule.Application.Contract.AssemblyInfo.cs
+D:\PostModule\PostModule\PostModule.Application.Contract\obj\Debug\net9.0\PostModule.Application.Contract.csproj.CoreCompileInputs.cache
+D:\PostModule\PostModule\PostModule.Application.Contract\obj\Debug\net9.0\PostModule.Application.Contract.sourcelink.json
+D:\PostModule\PostModule\PostModule.Application.Contract\obj\Debug\net9.0\PostModule.Application.Contract.dll
+D:\PostModule\PostModule\PostModule.Application.Contract\obj\Debug\net9.0\refint\PostModule.Application.Contract.dll
+D:\PostModule\PostModule\PostModule.Application.Contract\obj\Debug\net9.0\PostModule.Application.Contract.pdb
+D:\PostModule\PostModule\PostModule.Application.Contract\obj\Debug\net9.0\ref\PostModule.Application.Contract.dll
