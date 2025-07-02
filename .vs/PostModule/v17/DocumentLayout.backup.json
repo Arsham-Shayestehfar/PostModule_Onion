@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "D:\\PostModule\\PostModule\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B56A3426-8156-49B6-BDD5-94FEE96F6F37}|PostModule.Infrastructure\\PostModule.Infrastructure.csproj|d:\\postmodule\\postmodule\\postmodule.infrastructure\\repositories\\staterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B56A3426-8156-49B6-BDD5-94FEE96F6F37}|PostModule.Infrastructure\\PostModule.Infrastructure.csproj|solutionrelative:postmodule.infrastructure\\repositories\\staterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD92938F-C2E7-48EE-BC86-7F7336CBA58F}|PostModeule.Application.Services\\PostModeule.Application.Services.csproj|d:\\postmodule\\postmodule\\postmodeule.application.services\\cityapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD92938F-C2E7-48EE-BC86-7F7336CBA58F}|PostModeule.Application.Services\\PostModeule.Application.Services.csproj|solutionrelative:postmodeule.application.services\\cityapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B56A3426-8156-49B6-BDD5-94FEE96F6F37}|PostModule.Infrastructure\\PostModule.Infrastructure.csproj|d:\\postmodule\\postmodule\\postmodule.infrastructure\\repositories\\cityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B56A3426-8156-49B6-BDD5-94FEE96F6F37}|PostModule.Infrastructure\\PostModule.Infrastructure.csproj|solutionrelative:postmodule.infrastructure\\repositories\\cityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{06491E1F-21EA-4253-84FE-688979485AA6}|PostModule.Domain\\PostModule.Domain.csproj|d:\\postmodule\\postmodule\\postmodule.domain\\cityentity\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06491E1F-21EA-4253-84FE-688979485AA6}|PostModule.Domain\\PostModule.Domain.csproj|solutionrelative:postmodule.domain\\cityentity\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30033641-D642-4EB9-8ADA-DB533774128A}|PostModule.Application.Contract\\PostModule.Application.Contract.csproj|d:\\postmodule\\postmodule\\postmodule.application.contract\\cityapplication\\editcitymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30033641-D642-4EB9-8ADA-DB533774128A}|PostModule.Application.Contract\\PostModule.Application.Contract.csproj|solutionrelative:postmodule.application.contract\\cityapplication\\editcitymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30033641-D642-4EB9-8ADA-DB533774128A}|PostModule.Application.Contract\\PostModule.Application.Contract.csproj|d:\\postmodule\\postmodule\\postmodule.application.contract\\cityapplication\\icityapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30033641-D642-4EB9-8ADA-DB533774128A}|PostModule.Application.Contract\\PostModule.Application.Contract.csproj|solutionrelative:postmodule.application.contract\\cityapplication\\icityapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD92938F-C2E7-48EE-BC86-7F7336CBA58F}|PostModeule.Application.Services\\PostModeule.Application.Services.csproj|d:\\postmodule\\postmodule\\postmodeule.application.services\\stateapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD92938F-C2E7-48EE-BC86-7F7336CBA58F}|PostModeule.Application.Services\\PostModeule.Application.Services.csproj|solutionrelative:postmodeule.application.services\\stateapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B56A3426-8156-49B6-BDD5-94FEE96F6F37}|PostModule.Infrastructure\\PostModule.Infrastructure.csproj|d:\\postmodule\\postmodule\\postmodule.infrastructure\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B56A3426-8156-49B6-BDD5-94FEE96F6F37}|PostModule.Infrastructure\\PostModule.Infrastructure.csproj|solutionrelative:postmodule.infrastructure\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{06491E1F-21EA-4253-84FE-688979485AA6}|PostModule.Domain\\PostModule.Domain.csproj|d:\\postmodule\\postmodule\\postmodule.domain\\services\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{06491E1F-21EA-4253-84FE-688979485AA6}|PostModule.Domain\\PostModule.Domain.csproj|solutionrelative:postmodule.domain\\services\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{30033641-D642-4EB9-8ADA-DB533774128A}|PostModule.Application.Contract\\PostModule.Application.Contract.csproj|d:\\postmodule\\postmodule\\postmodule.application.contract\\stateapplication\\istateapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30033641-D642-4EB9-8ADA-DB533774128A}|PostModule.Application.Contract\\PostModule.Application.Contract.csproj|solutionrelative:postmodule.application.contract\\stateapplication\\istateapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +38,97 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "StateRepository.cs",
-              "DocumentMoniker": "D:\\PostModule\\PostModule\\PostModule.Infrastructure\\Repositories\\StateRepository.cs",
-              "RelativeDocumentMoniker": "PostModule.Infrastructure\\Repositories\\StateRepository.cs",
-              "ToolTip": "D:\\PostModule\\PostModule\\PostModule.Infrastructure\\Repositories\\StateRepository.cs*",
-              "RelativeToolTip": "PostModule.Infrastructure\\Repositories\\StateRepository.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "EditCityModel.cs",
+              "DocumentMoniker": "D:\\PostModule\\PostModule\\PostModule.Application.Contract\\CityApplication\\EditCityModel.cs",
+              "RelativeDocumentMoniker": "PostModule.Application.Contract\\CityApplication\\EditCityModel.cs",
+              "ToolTip": "D:\\PostModule\\PostModule\\PostModule.Application.Contract\\CityApplication\\EditCityModel.cs",
+              "RelativeToolTip": "PostModule.Application.Contract\\CityApplication\\EditCityModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T04:07:45.897Z",
+              "WhenOpened": "2025-07-02T05:56:52.93Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CityRepository.cs",
-              "DocumentMoniker": "D:\\PostModule\\PostModule\\PostModule.Infrastructure\\Repositories\\CityRepository.cs",
-              "RelativeDocumentMoniker": "PostModule.Infrastructure\\Repositories\\CityRepository.cs",
-              "ToolTip": "D:\\PostModule\\PostModule\\PostModule.Infrastructure\\Repositories\\CityRepository.cs*",
-              "RelativeToolTip": "PostModule.Infrastructure\\Repositories\\CityRepository.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAARAAAAAAAAAA==",
+              "Title": "City.cs",
+              "DocumentMoniker": "D:\\PostModule\\PostModule\\PostModule.Domain\\CityEntity\\City.cs",
+              "RelativeDocumentMoniker": "PostModule.Domain\\CityEntity\\City.cs",
+              "ToolTip": "D:\\PostModule\\PostModule\\PostModule.Domain\\CityEntity\\City.cs",
+              "RelativeToolTip": "PostModule.Domain\\CityEntity\\City.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAswAoAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T04:07:00.692Z",
+              "WhenOpened": "2025-07-02T05:35:01.736Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "IRepository.cs",
-              "DocumentMoniker": "D:\\PostModule\\PostModule\\PostModule.Domain\\Services\\IRepository.cs",
-              "RelativeDocumentMoniker": "PostModule.Domain\\Services\\IRepository.cs",
-              "ToolTip": "D:\\PostModule\\PostModule\\PostModule.Domain\\Services\\IRepository.cs",
-              "RelativeToolTip": "PostModule.Domain\\Services\\IRepository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAbAAAAAAAAAA==",
+              "Title": "ICityApplication.cs",
+              "DocumentMoniker": "D:\\PostModule\\PostModule\\PostModule.Application.Contract\\CityApplication\\ICityApplication.cs",
+              "RelativeDocumentMoniker": "PostModule.Application.Contract\\CityApplication\\ICityApplication.cs",
+              "ToolTip": "D:\\PostModule\\PostModule\\PostModule.Application.Contract\\CityApplication\\ICityApplication.cs",
+              "RelativeToolTip": "PostModule.Application.Contract\\CityApplication\\ICityApplication.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T03:39:05.12Z",
+              "WhenOpened": "2025-07-02T05:34:37.024Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "CityApplication.cs",
+              "DocumentMoniker": "D:\\PostModule\\PostModule\\PostModeule.Application.Services\\CityApplication.cs",
+              "RelativeDocumentMoniker": "PostModeule.Application.Services\\CityApplication.cs",
+              "ToolTip": "D:\\PostModule\\PostModule\\PostModeule.Application.Services\\CityApplication.cs",
+              "RelativeToolTip": "PostModeule.Application.Services\\CityApplication.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAswDwAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T05:28:43.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Repository.cs",
               "DocumentMoniker": "D:\\PostModule\\PostModule\\PostModule.Infrastructure\\Repositories\\Repository.cs",
               "RelativeDocumentMoniker": "PostModule.Infrastructure\\Repositories\\Repository.cs",
               "ToolTip": "D:\\PostModule\\PostModule\\PostModule.Infrastructure\\Repositories\\Repository.cs",
               "RelativeToolTip": "PostModule.Infrastructure\\Repositories\\Repository.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAowDIAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAA5wAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T03:36:39.68Z",
+              "WhenOpened": "2025-07-02T05:10:54.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IStateApplication.cs",
+              "DocumentMoniker": "D:\\PostModule\\PostModule\\PostModule.Application.Contract\\StateApplication\\IStateApplication.cs",
+              "RelativeDocumentMoniker": "PostModule.Application.Contract\\StateApplication\\IStateApplication.cs",
+              "ToolTip": "D:\\PostModule\\PostModule\\PostModule.Application.Contract\\StateApplication\\IStateApplication.cs",
+              "RelativeToolTip": "PostModule.Application.Contract\\StateApplication\\IStateApplication.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAYwA4AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T05:08:29.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StateApplication.cs",
+              "DocumentMoniker": "D:\\PostModule\\PostModule\\PostModeule.Application.Services\\StateApplication.cs",
+              "RelativeDocumentMoniker": "PostModeule.Application.Services\\StateApplication.cs",
+              "ToolTip": "D:\\PostModule\\PostModule\\PostModeule.Application.Services\\StateApplication.cs",
+              "RelativeToolTip": "PostModeule.Application.Services\\StateApplication.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAkwC0AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T05:08:01.802Z",
               "EditorCaption": ""
             },
             {

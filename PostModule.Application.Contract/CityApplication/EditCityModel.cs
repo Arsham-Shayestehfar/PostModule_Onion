@@ -2,7 +2,7 @@
 {
     public class EditCityModel
     {
-        public int StateId { get; set; }
+        public int Id { get; set; }
         public string Title { get; set; }
     }
 }

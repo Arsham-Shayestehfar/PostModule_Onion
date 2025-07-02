@@ -8,11 +8,11 @@ namespace PostModule.Application.Contract.StateApplication
 {
     public interface IStateApplication
     {
-        bool Creat(CreateStateModel command);
+        bool Create(CreateStateModel command);
         bool Edit(EditStateModel command);
         List<StateViewModel> GetAll();
         EditStateModel GetStateForEdit(int id);
-        bool IsTitleExistForCrreate (string title);
+        bool IsTitleExistForCreate (string title);
         bool IsTitleExistForEdit(string title,int id );
     }
 }

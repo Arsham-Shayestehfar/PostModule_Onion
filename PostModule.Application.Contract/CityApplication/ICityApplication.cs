@@ -9,9 +9,9 @@ namespace PostModule.Application.Contract.CityApplication
     public interface ICityApplication
     {
         bool Create(CreateCityModel command);
-        bool Create(EditCityModel command);
-        bool ExistTitleForCreate(string title);
-        bool ExistTitleForEdit(string title,int id );
+        bool Edit(EditCityModel command);
+        bool ExistTitleForCreate(string title, int stateId);
+        bool ExistTitleForEdit(string title,int id, int stateId);
         EditCityModel GetCityForEdit(int id);
         List<CityViewModel> GetAllForState(int stateId);
     }

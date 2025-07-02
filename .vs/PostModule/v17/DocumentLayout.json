@@ -1,24 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\PostModule\\PostModule\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{B56A3426-8156-49B6-BDD5-94FEE96F6F37}|PostModule.Infrastructure\\PostModule.Infrastructure.csproj|d:\\postmodule\\postmodule\\postmodule.infrastructure\\repositories\\staterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B56A3426-8156-49B6-BDD5-94FEE96F6F37}|PostModule.Infrastructure\\PostModule.Infrastructure.csproj|solutionrelative:postmodule.infrastructure\\repositories\\staterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B56A3426-8156-49B6-BDD5-94FEE96F6F37}|PostModule.Infrastructure\\PostModule.Infrastructure.csproj|d:\\postmodule\\postmodule\\postmodule.infrastructure\\repositories\\cityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B56A3426-8156-49B6-BDD5-94FEE96F6F37}|PostModule.Infrastructure\\PostModule.Infrastructure.csproj|solutionrelative:postmodule.infrastructure\\repositories\\cityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B56A3426-8156-49B6-BDD5-94FEE96F6F37}|PostModule.Infrastructure\\PostModule.Infrastructure.csproj|d:\\postmodule\\postmodule\\postmodule.infrastructure\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B56A3426-8156-49B6-BDD5-94FEE96F6F37}|PostModule.Infrastructure\\PostModule.Infrastructure.csproj|solutionrelative:postmodule.infrastructure\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{06491E1F-21EA-4253-84FE-688979485AA6}|PostModule.Domain\\PostModule.Domain.csproj|d:\\postmodule\\postmodule\\postmodule.domain\\services\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{06491E1F-21EA-4253-84FE-688979485AA6}|PostModule.Domain\\PostModule.Domain.csproj|solutionrelative:postmodule.domain\\services\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -26,60 +9,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": -1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "StateRepository.cs",
-              "DocumentMoniker": "D:\\PostModule\\PostModule\\PostModule.Infrastructure\\Repositories\\StateRepository.cs",
-              "RelativeDocumentMoniker": "PostModule.Infrastructure\\Repositories\\StateRepository.cs",
-              "ToolTip": "D:\\PostModule\\PostModule\\PostModule.Infrastructure\\Repositories\\StateRepository.cs",
-              "RelativeToolTip": "PostModule.Infrastructure\\Repositories\\StateRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T04:07:45.897Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CityRepository.cs",
-              "DocumentMoniker": "D:\\PostModule\\PostModule\\PostModule.Infrastructure\\Repositories\\CityRepository.cs",
-              "RelativeDocumentMoniker": "PostModule.Infrastructure\\Repositories\\CityRepository.cs",
-              "ToolTip": "D:\\PostModule\\PostModule\\PostModule.Infrastructure\\Repositories\\CityRepository.cs",
-              "RelativeToolTip": "PostModule.Infrastructure\\Repositories\\CityRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T04:07:00.692Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IRepository.cs",
-              "DocumentMoniker": "D:\\PostModule\\PostModule\\PostModule.Domain\\Services\\IRepository.cs",
-              "RelativeDocumentMoniker": "PostModule.Domain\\Services\\IRepository.cs",
-              "ToolTip": "D:\\PostModule\\PostModule\\PostModule.Domain\\Services\\IRepository.cs",
-              "RelativeToolTip": "PostModule.Domain\\Services\\IRepository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T03:39:05.12Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Repository.cs",
-              "DocumentMoniker": "D:\\PostModule\\PostModule\\PostModule.Infrastructure\\Repositories\\Repository.cs",
-              "RelativeDocumentMoniker": "PostModule.Infrastructure\\Repositories\\Repository.cs",
-              "ToolTip": "D:\\PostModule\\PostModule\\PostModule.Infrastructure\\Repositories\\Repository.cs",
-              "RelativeToolTip": "PostModule.Infrastructure\\Repositories\\Repository.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAowDIAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T03:36:39.68Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
