@@ -8,7 +8,6 @@
     ".NETCoreApp,Version=v9.0": {
       "PostModeule.Application.Services/1.0.0": {
         "dependencies": {
-          "PostModule.Application.Contract": "1.0.0",
           "PostModule.Domain": "1.0.0"
         },
         "runtime": {
@@ -16,6 +15,9 @@
         }
       },
       "PostModule.Application.Contract/1.0.0": {
+        "dependencies": {
+          "_Utilities": "1.0.0"
+        },
         "runtime": {
           "PostModule.Application.Contract.dll": {
             "assemblyVersion": "1.0.0.0",
@@ -24,8 +26,19 @@
         }
       },
       "PostModule.Domain/1.0.0": {
+        "dependencies": {
+          "PostModule.Application.Contract": "1.0.0"
+        },
         "runtime": {
           "PostModule.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "_Utilities/1.0.0": {
+        "runtime": {
+          "_Utilities.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -45,6 +58,11 @@
       "sha512": ""
     },
     "PostModule.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "_Utilities/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

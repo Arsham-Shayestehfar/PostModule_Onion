@@ -20,3 +20,5 @@ D:\PostModule\PostModule\PostModule.Infrastructure\obj\Debug\net9.0\refint\PostM
 D:\PostModule\PostModule\PostModule.Infrastructure\obj\Debug\net9.0\PostModule.Infrastructure.pdb
 D:\PostModule\PostModule\PostModule.Infrastructure\obj\Debug\net9.0\PostModule.Infrastructure.genruntimeconfig.cache
 D:\PostModule\PostModule\PostModule.Infrastructure\obj\Debug\net9.0\ref\PostModule.Infrastructure.dll
+D:\PostModule\PostModule\PostModule.Infrastructure\bin\Debug\net9.0\_Utilities.dll
+D:\PostModule\PostModule\PostModule.Infrastructure\bin\Debug\net9.0\_Utilities.pdb

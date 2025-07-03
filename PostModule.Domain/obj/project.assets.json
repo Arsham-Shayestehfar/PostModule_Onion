@@ -1,11 +1,48 @@
 {
   "version": 3,
   "targets": {
-    "net9.0": {}
+    "net9.0": {
+      "PostModule.Application.Contract/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "_Utilities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PostModule.Application.Contract.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PostModule.Application.Contract.dll": {}
+        }
+      },
+      "_Utilities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/_Utilities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/_Utilities.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "PostModule.Application.Contract/1.0.0": {
+      "type": "project",
+      "path": "../PostModule.Application.Contract/PostModule.Application.Contract.csproj",
+      "msbuildProject": "../PostModule.Application.Contract/PostModule.Application.Contract.csproj"
+    },
+    "_Utilities/1.0.0": {
+      "type": "project",
+      "path": "../_Utilities/_Utilities.csproj",
+      "msbuildProject": "../_Utilities/_Utilities.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net9.0": []
+    "net9.0": [
+      "PostModule.Application.Contract >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\ACER\\.nuget\\packages\\": {},
@@ -39,7 +76,11 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\PostModule\\PostModule\\PostModule.Application.Contract\\PostModule.Application.Contract.csproj": {
+              "projectPath": "D:\\PostModule\\PostModule\\PostModule.Application.Contract\\PostModule.Application.Contract.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net9.0": {}
+    "net9.0": {
+      "_Utilities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/_Utilities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/_Utilities.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "_Utilities/1.0.0": {
+      "type": "project",
+      "path": "../_Utilities/_Utilities.csproj",
+      "msbuildProject": "../_Utilities/_Utilities.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net9.0": []
+    "net9.0": [
+      "_Utilities >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\ACER\\.nuget\\packages\\": {},
@@ -39,7 +58,11 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\PostModule\\PostModule\\_Utilities\\_Utilities.csproj": {
+              "projectPath": "D:\\PostModule\\PostModule\\_Utilities\\_Utilities.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

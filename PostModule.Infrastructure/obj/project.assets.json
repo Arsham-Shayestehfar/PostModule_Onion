@@ -1603,7 +1603,6 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
-          "PostModule.Application.Contract": "1.0.0",
           "PostModule.Domain": "1.0.0"
         },
         "compile": {
@@ -1616,6 +1615,9 @@
       "PostModule.Application.Contract/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "_Utilities": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/PostModule.Application.Contract.dll": {}
         },
@@ -1626,11 +1628,24 @@
       "PostModule.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "PostModule.Application.Contract": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/PostModule.Domain.dll": {}
         },
         "runtime": {
           "bin/placeholder/PostModule.Domain.dll": {}
+        }
+      },
+      "_Utilities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/_Utilities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/_Utilities.dll": {}
         }
       }
     }
@@ -4750,6 +4765,11 @@
       "type": "project",
       "path": "../PostModule.Domain/PostModule.Domain.csproj",
       "msbuildProject": "../PostModule.Domain/PostModule.Domain.csproj"
+    },
+    "_Utilities/1.0.0": {
+      "type": "project",
+      "path": "../_Utilities/_Utilities.csproj",
+      "msbuildProject": "../_Utilities/_Utilities.csproj"
     }
   },
   "projectFileDependencyGroups": {

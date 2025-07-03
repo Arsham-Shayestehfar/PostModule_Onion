@@ -17,9 +17,9 @@ namespace PostModule.Infrastructure.Configurations
             builder.HasKey(x => x.Id);
 
             builder.Property(c=>c.Title).IsRequired(true).HasMaxLength(150);
+            builder.Property(c => c.Status).IsRequired(true).HasMaxLength(150);
             builder.Property(c => c.StateId).IsRequired(true);
-            builder.Property(c => c.Tehran).IsRequired(true);
-            builder.Property(c => c.Center).IsRequired(true);
+           
             builder.Property(c => c.CreateDate).IsRequired(true);
 
             builder.HasOne(c=>c.State).WithMany(c=>c.Cities).HasForeignKey(c=>c.StateId);

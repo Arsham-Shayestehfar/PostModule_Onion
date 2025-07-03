@@ -31,22 +31,12 @@ namespace PostModeule.Application.Services
         }
 
         public List<StateViewModel> GetAll() =>
-            _state.GetAll().Select(s=> new StateViewModel
-            {
-                Id = s.Id,
-                Title = s.Title,
-                
-            }).ToList();
+            _state.GetAllStateViewModel();
        
 
         public EditStateModel GetStateForEdit(int id) 
             {
-             var state =  _state.GetById(id);
-            return new EditStateModel()
-            { 
-                Id = id,
-                Title = state.Title,
-            };
+          return _state.GetStateForEdit(id);
             }
             
         

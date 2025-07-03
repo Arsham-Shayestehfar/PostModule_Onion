@@ -12,8 +12,8 @@ namespace PostModule.Infrastructure.Repositories
 {
     public class Repository<Tkey, T> : IRepository<Tkey, T> where T : class
     {
-        readonly DbContext _context;
-        public Repository(DbContext post_Context)
+        readonly Post_Context _context;
+        public Repository(Post_Context post_Context)
         {
             _context = post_Context;
         }
@@ -40,7 +40,13 @@ namespace PostModule.Infrastructure.Repositories
 
         public IEnumerable<T> GetAllBy(Expression<Func<T, bool>> expression) =>
             _context.Set<T>().Where(expression).ToList();
-        
+
+        public IQueryable<T> GetAllByQuery(Expression<Func<T, bool>> expression) =>
+            _context.Set<T>().Where(expression);
+
+        public IQueryable<T> GetAllQuery() =>
+            _context.Set<T>();
+
 
         public T GetById(Tkey id) =>
         

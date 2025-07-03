@@ -1,5 +1,6 @@
 ﻿using PostModule.Application.Contract.CityApplication;
 using PostModule.Domain.CityEntity;
+
 using PostModule.Domain.Services;
 using System;
 using System.Collections.Generic;
@@ -18,14 +19,14 @@ namespace PostModeule.Application.Services
         }
         public bool Create(CreateCityModel command)
         {
-            City city = new(command.Title,command.StateId); 
+            City city = new(command.Title,command.StateId,command.Status); 
             return _city.Create(city);
         }
 
         public bool Edit(EditCityModel command)
         {
             var city = _city.GetById(command.Id);
-            city.Edit(command.Title);
+            city.Edit(command.Title,command.Status);
             return _city.Save();
         }
 
@@ -41,29 +42,14 @@ namespace PostModeule.Application.Services
 
         public List<CityViewModel> GetAllForState(int stateId) =>
         
-            _city.GetAllBy(c=>c.StateId == stateId).Select(c => new CityViewModel()
-            {
-                Id = c.Id,
-                Title = c.Title,
-                Center = c.Center,
-                Tehran = c.Tehran,
-                CreateDate = c.CreateDate.ToString(),
-
-
-            }).ToList();
+         _city.GetAllForState(stateId);
            
                 
         
 
-        public EditCityModel GetCityForEdit(int id)
-        {
-            var city = _city.GetById(id);
-            return new ()
-                {
-                Id = city.Id,
-                Title = city.Title,
-               
-                };
-        }
+        public EditCityModel GetCityForEdit(int id) =>
+            _city.GetCityForEdit(id);
+
+
     }
 }

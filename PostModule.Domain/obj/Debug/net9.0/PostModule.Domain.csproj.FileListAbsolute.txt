@@ -10,3 +10,9 @@ D:\PostModule\PostModule\PostModule.Domain\obj\Debug\net9.0\refint\PostModule.Do
 D:\PostModule\PostModule\PostModule.Domain\obj\Debug\net9.0\PostModule.Domain.pdb
 D:\PostModule\PostModule\PostModule.Domain\obj\Debug\net9.0\ref\PostModule.Domain.dll
 D:\PostModule\PostModule\PostModule.Domain\obj\Debug\net9.0\PostModule.Domain.sourcelink.json
+D:\PostModule\PostModule\PostModule.Domain\bin\Debug\net9.0\PostModule.Application.Contract.dll
+D:\PostModule\PostModule\PostModule.Domain\bin\Debug\net9.0\_Utilities.dll
+D:\PostModule\PostModule\PostModule.Domain\bin\Debug\net9.0\PostModule.Application.Contract.pdb
+D:\PostModule\PostModule\PostModule.Domain\bin\Debug\net9.0\_Utilities.pdb
+D:\PostModule\PostModule\PostModule.Domain\obj\Debug\net9.0\PostModule.Domain.csproj.AssemblyReference.cache
+D:\PostModule\PostModule\PostModule.Domain\obj\Debug\net9.0\PostModu.46B6115D.Up2Date

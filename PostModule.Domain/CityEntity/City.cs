@@ -1,4 +1,6 @@
-﻿using PostModule.Domain.Common;
+﻿using _Utitlities.Enums;
+using PostModule.Domain.Common;
+
 using PostModule.Domain.StateEntity;
 using System;
 using System.Collections.Generic;
@@ -12,37 +14,34 @@ namespace PostModule.Domain.CityEntity
     {
         public int StateId { get; set; }
         public string Title { get; set; }
-        public bool Tehran { get; set; }
-        public bool Center { get; set; }
+       
+        public CityStatus Status { get; set; }
         public State State { get; set; }
 
-        public City(string title,int stateId)
+        public City(string title,int stateId,CityStatus status)
         {
             StateId = stateId;
             Title = title;
-            Tehran = false;
-            Center = false;
+           Status = status;
             
             
         }
-        public void Edit(string title)
+        public void Edit(string title, CityStatus status)
         {
             Title = title;
+            Status = status;
         }
         public void IsTehran()
         {
-            Tehran = true;
-            Center=false;
+           Status = CityStatus.تهران;
         }
         public void IsCenter()
         {
-            Tehran = false;
-            Center = true;
+           Status = CityStatus.مرکز_استان;
         }
         public void NotCenterOrTehran()
         {
-            Tehran = false;
-            Center = false;
+            Status = CityStatus.شهرستان_معمولی;
         }
     }
 }

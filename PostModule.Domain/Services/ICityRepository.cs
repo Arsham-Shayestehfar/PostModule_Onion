@@ -1,4 +1,5 @@
-﻿using PostModule.Domain.CityEntity;
+﻿using PostModule.Application.Contract.CityApplication;
+using PostModule.Domain.CityEntity;
 using PostModule.Domain.StateEntity;
 using System;
 using System.Collections.Generic;
@@ -9,8 +10,9 @@ using System.Threading.Tasks;
 
 namespace PostModule.Domain.Services
 {
-    public interface ICityRepository:IRepository<int,City>
+    public interface ICityRepository : IRepository<int, City>
     {
-      
+        List<CityViewModel> GetAllForState(int stateId);
+        EditCityModel GetCityForEdit(int id);
     }
 }

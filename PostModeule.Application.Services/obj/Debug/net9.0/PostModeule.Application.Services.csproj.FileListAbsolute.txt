@@ -16,3 +16,5 @@ D:\PostModule\PostModule\PostModeule.Application.Services\obj\Debug\net9.0\PostM
 D:\PostModule\PostModule\PostModeule.Application.Services\obj\Debug\net9.0\refint\PostModeule.Application.Services.dll
 D:\PostModule\PostModule\PostModeule.Application.Services\obj\Debug\net9.0\PostModeule.Application.Services.pdb
 D:\PostModule\PostModule\PostModeule.Application.Services\obj\Debug\net9.0\ref\PostModeule.Application.Services.dll
+D:\PostModule\PostModule\PostModeule.Application.Services\bin\Debug\net9.0\_Utilities.dll
+D:\PostModule\PostModule\PostModeule.Application.Services\bin\Debug\net9.0\_Utilities.pdb

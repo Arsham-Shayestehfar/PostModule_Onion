@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using PostModule.Application.Contract.CityApplication;
 using PostModule.Domain.CityEntity;
 using PostModule.Domain.Services;
 using System;
@@ -12,8 +13,31 @@ namespace PostModule.Infrastructure.Repositories
 {
     public class CityRepository : Repository<int, City>, ICityRepository
     {
-        public CityRepository(DbContext post_Context) : base(post_Context)
+        public CityRepository(Post_Context post_Context) : base(post_Context)
         {
+        }
+
+        public List<CityViewModel> GetAllForState(int stateId)
+        {
+            return GetAllByQuery(c=>c.StateId == stateId).Select(c=> new CityViewModel
+            {
+                CreateDate = c.CreateDate.ToString(),
+                Title = c.Title,
+                Id = c.Id,
+                Status = c.Status,
+
+            }).ToList();
+        }
+
+        public EditCityModel GetCityForEdit(int id)
+        {
+            var city = GetById(id);
+            return new()
+            {
+                Id = city.Id,
+                Status = city.Status,
+                Title = city.Title,
+            };
         }
     }
 }
